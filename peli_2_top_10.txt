@@ -1,0 +1,1 @@
+abc:9|bcd:8|cde:7|def:6|efg:5|ggg:5|ABC:3|tat:3|ABC:2|GNV:2
