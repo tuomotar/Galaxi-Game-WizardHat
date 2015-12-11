@@ -1,0 +1,87 @@
+{ 	"GAME_STATES": 
+	{
+		"LOADING": "loading",
+		"ALL_LOADED": "allLoaded",
+		"START_START_SCREEN": "startStartScreen",
+		"START_SCREEN": "startScreen",
+		"START_GAME": "startGame",
+		"GAME_ON": "gameOn",
+		"START_GAME_OVER": "startGameOver",
+		"GAME_OVER": "gameOver",		
+		"GAME_PAUSED": "gamePaused",
+		"SCALING": "scaling"		
+	},
+	"designDim" :  
+	{ 
+		"w": 1080, 
+		"h": 1920 
+	},
+	"urls" : 
+	{ 
+		"assets": "http://yle.fi/galaxi/mazq/2015/peli2/game_assets/",
+		"top10ajax": "http://yle.fi/galaxi/mazq/2015/peli2/peli_2_top_10_v2.php" 
+	},
+	"assets_bitmap":
+	{
+		"character1" : {"spriteName": "character1", "filename": "pc_0.png" },
+		"character2" : {"spriteName": "character2", "filename": "pc_1.png" },
+		"character3" : {"spriteName": "character3", "filename": "pc_2.png" },
+		"background1" : {"spriteName": "background1", "filename": "back1.jpg"},
+		"background2" : {"spriteName": "background2", "filename": "back2.jpg"},		
+		"buttonUp": {"spriteName": "buttonUp", "filename": "vn_1.jpg"},
+		"buttonDown": {"spriteName": "buttonDown", "filename": "vn_3.jpg"},
+		"buttonLeft": {"spriteName": "buttonLeft", "filename": "vn_4.jpg"},
+		"buttonRight": {"spriteName": "buttonRight", "filename": "vn_2.jpg"},
+		"wallLeft": {"spriteName": "wallLeft", "filename": "wall_left.jpg"},
+		"wallRight": {"spriteName": "wallRight", "filename": "wall_right.jpg"},
+		"wallBottom": {"spriteName": "wallBottom", "filename": "wall_bottom.jpg"}
+	},
+	"assets_animated_spritesheet":
+	{
+		"roller": {"spriteName": "roller", "filename": "g.json" }
+	},
+	"wait":
+	{
+		"gameOver": 1000
+	},
+	"physics":
+	{
+		"gravityOrig" : 0.00002,
+		"gravityOrigUser": 0.000015,
+		"gravityAddOrig" : 0.0000001,
+		"limitAccelerationX" : 0.5,
+		"limitAccelerationY" : 0.5,
+		"limitVelocityX" : 5,
+		"limitVelocityY" : 3,
+		"userAccelerationUp": -0.005,
+		"userSpeedUp": -1.2,
+		"userSpeedLeft": -0.25,
+		"userSpeedRight": 0.25,
+		"deltaTMin": 0.01, 
+		"deltaTMax": 20,
+		"rollerOriginalXVelocity": 0.15,
+		"rollerPointsVelocityMultiplier": 0.02,
+		"rollerBounce": 0.96,
+		"wallRightOriginalSpeed": 5,
+		"wallRightSpeedRandomMin": 1,
+		"wallRightSpeedRandomMax": 6,
+		"wallRightSpeedHitsCountMax": 5,
+		"wallLeftOriginalSpeed": 5,
+		"wallLeftVelocityRandomMin": 1,
+		"wallLeftVelocityRandomMax": 3,
+		"wallLeftSpeedHitsCountMax": 7,
+		"characterTopBounce": -0.95	
+	},
+	"nonGameArea":
+	{
+		"w": 1080,
+		"h": 558,
+		"x": 0,
+		"y": 1362
+	},
+	"virtualKeyboardContainerLeftTopCorner":
+	{
+		"x": 440,
+		"y": 1500
+	}
+}
