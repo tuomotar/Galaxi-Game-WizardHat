@@ -82,6 +82,7 @@
 	"virtualKeyboardContainerLeftTopCorner":
 	{
 		"x": 440,
-		"y": 1500
+		"y": 1500,
+		"z": 0
 	}
 }
